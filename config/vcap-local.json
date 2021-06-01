@@ -1,0 +1,19 @@
+{
+    "services": {
+        "cloudantNoSQLDB": {
+            "credentials": {
+                "apikey": "RRDCQHgQzWbbFjwKOLTjRYYQKq8J84nQkg6mpdDOs7Xv",
+                "host": "3164c3a7-46a6-44e5-8539-1d9e2fe4129a-bluemix.cloudantnosqldb.appdomain.cloud",
+                "iam_apikey_description": "Auto-generated for key e6d14f5f-4d2a-41c4-9851-2c8f375c4450",
+                "iam_apikey_name": "fearless_team01",
+                "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/5dbe800889564d809ac334030c5e3452::serviceid:ServiceId-2fc3cbca-9cc6-4d63-84ac-f978b6fea0d8",
+                "password": "a9f36448d114623285f882e80e3c25da",
+                "port": 443,
+                "url": "https://apikey-v2-14xfqzciplt98sby1a6xn3c1h1a274bdhimzw1lhb2ig:a9f36448d114623285f882e80e3c25da@3164c3a7-46a6-44e5-8539-1d9e2fe4129a-bluemix.cloudantnosqldb.appdomain.cloud",
+                "username": "apikey-v2-14xfqzciplt98sby1a6xn3c1h1a274bdhimzw1lhb2ig"
+            },
+            "label": "cloudantNoSQLDB"
+        }
+    }
+}

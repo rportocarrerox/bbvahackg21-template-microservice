@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: [NAME]-app
+  labels:
+    app: [NAME]-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: [NAME]-app
+  template:
+    metadata:
+      labels:
+        app: [NAME]-app
+    spec:
+      containers:
+      - name: [NAME]-app
+        image: [NAME]app:1
+        ports:
+        - containerPort: 8091
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: [NAME]-service
+  labels:
+    app: [NAME]-service
+spec:
+  type: NodePort
+  ports:
+    - port: 8091
+      targetPort: 8091
+  selector:
+    app: [NAME]-app
